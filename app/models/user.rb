@@ -3,7 +3,9 @@ require 'bcrypt'
 class User
   include Mongoid::Document
 
-  field :name, type: String
+  field :firstname, type: String
+  field :lastname, type: String
+  field :profilename,type: String
   field :email, type: String
   field :password_digest, type: String
 

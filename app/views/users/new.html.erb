@@ -1,8 +1,11 @@
 <h1>Sign Up!</h1>
 
 <%= form_for @user do |f| %>
-     <%= f.label :name %>
-     <%= f.text_field :name %>
+     <%= f.label :first_name %>
+     <%= f.text_field :firstname %>
+
+     <%= f.label :last_name %>
+     <%= f.text_field :lastname %>
 
      <%= f.label :email %>
      <%= f.text_field :email %>
